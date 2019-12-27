@@ -1,0 +1,55 @@
+$weekDays: (
+  "mon": 0,
+  "tue": 100,
+  "wed": 200,
+  "thu": 300,
+  "fri": 400,
+  "sat": 500,
+  "sun": 600
+);
+
+@mixin days {
+  width: 100px;
+  height: 100px;
+  background: #eee;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calendar {
+  display: flex;
+  width: 700px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+div.calendar > div {
+  display: none;
+}
+
+@for $i from 1 through 31 {
+  div.calendar > div:nth-child(#{$i}):after {
+    content: "#{$i}";
+  }
+}
+
+@for $i from 28 through 31 {
+  div.calendar-#{$i} > div:nth-child(-n+#{$i}) {
+    @include days;
+  }
+}
+
+@each $weekDay, $bound in $weekDays {
+  div.calendar-#{$weekDay} > div:first-child {
+    margin-left: #{$bound}px;
+  }
+}
+
+div.calendar > div:hover {
+  position: relative;
+  background: pink;
+  top: -20px;
+  transition: 0.5s ease-in-out;
+}
