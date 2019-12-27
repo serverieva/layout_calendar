@@ -1,0 +1,203 @@
+.calendar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 700px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto; }
+
+div.calendar > div {
+  display: none; }
+
+div.calendar > div:nth-child(1):after {
+  content: "1"; }
+
+div.calendar > div:nth-child(2):after {
+  content: "2"; }
+
+div.calendar > div:nth-child(3):after {
+  content: "3"; }
+
+div.calendar > div:nth-child(4):after {
+  content: "4"; }
+
+div.calendar > div:nth-child(5):after {
+  content: "5"; }
+
+div.calendar > div:nth-child(6):after {
+  content: "6"; }
+
+div.calendar > div:nth-child(7):after {
+  content: "7"; }
+
+div.calendar > div:nth-child(8):after {
+  content: "8"; }
+
+div.calendar > div:nth-child(9):after {
+  content: "9"; }
+
+div.calendar > div:nth-child(10):after {
+  content: "10"; }
+
+div.calendar > div:nth-child(11):after {
+  content: "11"; }
+
+div.calendar > div:nth-child(12):after {
+  content: "12"; }
+
+div.calendar > div:nth-child(13):after {
+  content: "13"; }
+
+div.calendar > div:nth-child(14):after {
+  content: "14"; }
+
+div.calendar > div:nth-child(15):after {
+  content: "15"; }
+
+div.calendar > div:nth-child(16):after {
+  content: "16"; }
+
+div.calendar > div:nth-child(17):after {
+  content: "17"; }
+
+div.calendar > div:nth-child(18):after {
+  content: "18"; }
+
+div.calendar > div:nth-child(19):after {
+  content: "19"; }
+
+div.calendar > div:nth-child(20):after {
+  content: "20"; }
+
+div.calendar > div:nth-child(21):after {
+  content: "21"; }
+
+div.calendar > div:nth-child(22):after {
+  content: "22"; }
+
+div.calendar > div:nth-child(23):after {
+  content: "23"; }
+
+div.calendar > div:nth-child(24):after {
+  content: "24"; }
+
+div.calendar > div:nth-child(25):after {
+  content: "25"; }
+
+div.calendar > div:nth-child(26):after {
+  content: "26"; }
+
+div.calendar > div:nth-child(27):after {
+  content: "27"; }
+
+div.calendar > div:nth-child(28):after {
+  content: "28"; }
+
+div.calendar > div:nth-child(29):after {
+  content: "29"; }
+
+div.calendar > div:nth-child(30):after {
+  content: "30"; }
+
+div.calendar > div:nth-child(31):after {
+  content: "31"; }
+
+div.calendar-28 > div:nth-child(-n+28) {
+  width: 100px;
+  height: 100px;
+  background: #eee;
+  border: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+div.calendar-29 > div:nth-child(-n+29) {
+  width: 100px;
+  height: 100px;
+  background: #eee;
+  border: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+div.calendar-30 > div:nth-child(-n+30) {
+  width: 100px;
+  height: 100px;
+  background: #eee;
+  border: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+div.calendar-31 > div:nth-child(-n+31) {
+  width: 100px;
+  height: 100px;
+  background: #eee;
+  border: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+div.calendar-mon > div:first-child {
+  margin-left: 0px; }
+
+div.calendar-tue > div:first-child {
+  margin-left: 100px; }
+
+div.calendar-wed > div:first-child {
+  margin-left: 200px; }
+
+div.calendar-thu > div:first-child {
+  margin-left: 300px; }
+
+div.calendar-fri > div:first-child {
+  margin-left: 400px; }
+
+div.calendar-sat > div:first-child {
+  margin-left: 500px; }
+
+div.calendar-sun > div:first-child {
+  margin-left: 600px; }
+
+div.calendar > div:hover {
+  position: relative;
+  background: pink;
+  top: -20px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 30px; }
+
+/*# sourceMappingURL=main.css.map */
